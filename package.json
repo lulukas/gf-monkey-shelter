@@ -1,5 +1,5 @@
 {
-  "name": "funkey-monkey",
+  "name": "gf-monkey-shelter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,9 +7,58 @@
     "build": "next build",
     "start": "next start"
   },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 100
+  },
+  "eslintConfig": {
+    "plugins": [
+      "prettier",
+      "react"
+    ],
+    "extends": [
+      "plugin:react/recommended",
+      "prettier"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.test.js",
+          "tests/**/*.js"
+        ],
+        "rules": {
+          "max-lines": "off"
+        }
+      }
+    ],
+    "settings": {
+      "react": {
+        "version": "17.0.2"
+      }
+    },
+    "rules": {
+      "max-lines": "off",
+      "prettier/prettier": "error",
+      "react/require-default-props": "off",
+      "react/no-unescaped-entities": "off",
+      "react/no-deprecated": "off",
+      "react/prop-types": "off",
+      "newline-per-chained-call": "off",
+      "function-paren-newline": "off"
+    }
+  },
   "dependencies": {
     "next": "10.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "prettier": "^2.2.1"
   }
 }
