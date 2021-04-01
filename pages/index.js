@@ -11,7 +11,7 @@ const Home = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://gfms-db-interview-aas.azurewebsites.net/monkeyshelter">Funkey Monkey Shelter</a>
+          Welcome to <a href="https://gfms-db-interview-aas.azurewebsites.net/monkeyshelter">GF Monkey Shelter</a>
         </h1>
       </main>
     </div>
