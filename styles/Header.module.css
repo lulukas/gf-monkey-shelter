@@ -6,6 +6,10 @@
   align-items: center;
 
   background-color: var(--color-3);
+
+  border-bottom: #3eaa3c 4px solid;
+  box-shadow: #414141 0px 0px 13px;
+  margin-bottom: 30px;
 }
 
 .logo {
