@@ -1,6 +1,6 @@
 {
   "name": "rgkw15o-usrs6z",
-  "hash": "TP/CGU4hgsuXF32MVYWQ4S9EAQiX4ko+zq2K7eWDviU=",
+  "hash": "HbsNzbxVjUA/oNfZVQfD1PS2RSc3MPhwAk1wtaWpNGA=",
   "description": "Default Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,

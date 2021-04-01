@@ -1,0 +1,61 @@
+:root {
+  /* sizes */
+  --size-128: 128px;
+  --size-64: 64px;
+  --size-48: 48px;
+  --size-32: 32px;
+  --size-24: 24px;
+  --size-16: 16px;
+  --size-8: 8px;
+  --size-4: 4px;
+
+  /* custom sizes */
+  --header-height: 80px;
+
+  /* font-size */
+  --font-size-base: 10px;
+
+  /* used for titles */
+  --font-size-32: 3.2rem;
+  --font-size-24: 2.4rem;
+  --font-size-20: 2rem;
+  --font-size-18: 1.8rem;
+  --font-size-16: 1.6rem;
+
+  /* used for text */
+  --font-size-64: 6.4rem;
+  --font-size-14: 1.4rem;
+  --font-size-12: 1.2rem;
+  --font-size-10: 1rem;
+
+  /* fonts */
+  --font-family-logo: 'Reggae One', cursive;
+  --font-family-text: 'Roboto Condensed', sans-serif;
+
+  /* colors */
+  --color-1: #4A2407;
+  --color-2: #FBE8DA;
+  --color-3: #1e441e;
+  --color-4: #3eaa3b;
+  --color-5: #c0e0de;
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    /* size */
+    --header-height: 80px;
+
+    /* used for titles */
+    --font-size-32: 2.6rem;
+    --font-size-24: 2rem;
+    --font-size-20: 1.6rem;
+    --font-size-18: 1.4rem;
+    --font-size-16: 1.2rem;
+
+    /* used for text */
+    --font-size-64: 4rem;
+    --font-size-14: 1rem;
+    --font-size-12: 1rem;
+    --font-size-10: 1rem;
+  }
+}

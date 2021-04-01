@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: var(--header-height);
+
+  display: flex;
+  align-items: center;
+
+  background-color: var(--color-3);
+}
+
+.logo {
+  margin: var(--size-16);
+}
+
+.logo-text {
+  font-family: var(--font-family-logo);
+  font-size: var(--font-size-16);
+  color: var(--color-2);
+}
