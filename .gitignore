@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# SERVERLESS
+.serverless_nextjs
