@@ -85,8 +85,8 @@ const MonkeyShelterLogo = ({ size }) => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(187.956 90.843) rotate(90) scale(77.0438 179.923)"
         >
-          <stop stop-color="#62F95F" />
-          <stop offset="1" stop-color="#267624" />
+          <stop stopColor="#62F95F" />
+          <stop offset="1" stopColor="#267624" />
         </radialGradient>
         <linearGradient
           id="paint1_linear"
@@ -96,8 +96,8 @@ const MonkeyShelterLogo = ({ size }) => {
           y2="244.881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D7C1A5" />
-          <stop offset="1" stop-color="#766043" />
+          <stop stopColor="#D7C1A5" />
+          <stop offset="1" stopColor="#766043" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -107,8 +107,8 @@ const MonkeyShelterLogo = ({ size }) => {
           y2="263"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D7C1A5" />
-          <stop offset="1" stop-color="#766043" />
+          <stop stopColor="#D7C1A5" />
+          <stop offset="1" stopColor="#766043" />
         </linearGradient>
       </defs>
     </svg>

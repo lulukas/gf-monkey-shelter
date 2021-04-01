@@ -2,11 +2,13 @@ import Head from 'next/head'
 
 // Components
 import Header from '../components/organisms/Header'
+import { Report } from '../components/pages/Report'
 
 // styles
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
+  process.env.TEST
   return (
     <div className={styles.container}>
       <Head>
@@ -23,10 +25,11 @@ const Home = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to{' '}
-          <a href="https://gfms-db-interview-aas.azurewebsites.net/monkeyshelter">
+          <a href={process.env.NEXT_PUBLIC_MONKEY_API}>
             GF Monkey Shelter
           </a>
         </h1>
+        <Report />
       </main>
     </div>
   )
