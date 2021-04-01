@@ -1,10 +1,10 @@
 {
   "name": "rgkw15o-usrs6z",
-  "hash": "TlrkE9lHtTg04ZOxbWBXxZJTq16leqplEND1aFWE/wA=",
+  "hash": "TP/CGU4hgsuXF32MVYWQ4S9EAQiX4ko+zq2K7eWDviU=",
   "description": "Default Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,
-  "code": "/home/lukas/dev/funkey-monkey/.serverless_nextjs/default-lambda",
+  "code": "/home/lukas/dev/gf-monkey-shelter/.serverless_nextjs/default-lambda",
   "shims": [],
   "handler": "index.handler",
   "runtime": "nodejs12.x",

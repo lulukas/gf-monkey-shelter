@@ -2,8 +2,8 @@
   "name": "rgkw15o-ph8rsimp",
   "arn": "arn:aws:iam::375007763456:role/rgkw15o-ph8rsimp",
   "service": [
-    "lambda.amazonaws.com",
-    "edgelambda.amazonaws.com"
+    "edgelambda.amazonaws.com",
+    "lambda.amazonaws.com"
   ],
   "policy": {
     "Version": "2012-10-17",

@@ -1,10 +1,10 @@
 {
   "name": "rgkw15o-nr9p3n",
-  "hash": "8/PGXy0l1W9fUuaCZTwocR1NylwA0UP9kl8FeijdHFY=",
+  "hash": "Uwt4byqJs4Ut55Hl/vH6MUZQ/Nifgu4jWhIAChj3LJ8=",
   "description": "API Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,
-  "code": "/home/lukas/dev/funkey-monkey/.serverless_nextjs/api-lambda",
+  "code": "/home/lukas/dev/gf-monkey-shelter/.serverless_nextjs/api-lambda",
   "shims": [],
   "handler": "index.handler",
   "runtime": "nodejs12.x",
