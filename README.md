@@ -22,10 +22,10 @@ Run app on localhost:3000.
 
 ## Deploy app to aws
 
-Set up your aws envirenment variables
+Set up your aws environment variables
 
-> `export AWS_ACCESS_KEY_ID="{your_access_key}"`
-> `export AWS_SECRET_ACCESS_KEY="{your_secret_access_key}"`
+> `export AWS_ACCESS_KEY_ID="{your_access_key}"` 
+`export AWS_SECRET_ACCESS_KEY="{your_secret_access_key}"`
 
 Deploy your app.
 
