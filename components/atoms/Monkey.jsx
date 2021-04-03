@@ -42,7 +42,7 @@ export const Monkey = ({ size, eyeColor }) => {
       />
       <path
         d="M58.1922 266.248C58.1922 350.512 118.543 418.819 192.984 418.819C267.425 418.819 327.775 350.512 327.775 266.248C327.775 181.982 327.056 75.4439 192.398 108.617C39.8831 75.4439 58.1922 181.982 58.1922 266.248Z"
-        fill="url(#paint0_linear)"
+        fill="url(#paint3_linear)"
       />
       <path
         d="M165.136 220.784C165.136 192.812 148.066 170.133 127.006 170.133C105.945 170.133 88.8706 192.812 88.8706 220.784C88.8706 248.76 105.945 271.438 127.006 271.438C148.066 271.438 165.136 248.761 165.136 220.784Z"
@@ -62,17 +62,17 @@ export const Monkey = ({ size, eyeColor }) => {
       />
       <path
         d="M359.442 353.068C359.442 410.535 284.662 457.121 192.415 457.121C100.174 457.121 25.394 410.535 25.394 353.068C25.394 295.604 100.174 249.018 192.415 249.018C284.661 249.018 359.442 295.604 359.442 353.068Z"
-        fill="url(#paint1_linear)"
+        fill="url(#paint4_linear)"
       />
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M233.285 394.43C229.491 394.929 225.512 395.194 221.411 395.194C201.441 395.194 184.362 388.9 177.424 380C157.049 382.679 142 392.092 142 403.292C142 416.578 163.176 427.348 189.299 427.348C215.422 427.348 236.598 416.578 236.598 403.292C236.598 400.162 235.423 397.172 233.285 394.43Z"
-        fill="black"
+        d="M87 321.5C119.667 305.5 206.5 283.1 292.5 321.5M87 352H292.5M87 389C123.5 405.833 215.7 429.4 292.5 389"
+        stroke="#0068C9"
+        strokeWidth="5"
+        strokeLinecap="round"
       />
       <defs>
         <linearGradient
-          id="paint0_linear"
+          id="paint3_linear"
           x1="192.641"
           y1="102.406"
           x2="192.641"
@@ -83,15 +83,15 @@ export const Monkey = ({ size, eyeColor }) => {
           <stop offset="1" stopColor="#766043" />
         </linearGradient>
         <linearGradient
-          id="paint1_linear"
+          id="paint4_linear"
           x1="192.418"
           y1="249.018"
           x2="192.418"
           y2="457.121"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#D7C1A5" />
-          <stop offset="1" stopColor="#766043" />
+          <stop stopColor="#A5CED7" />
+          <stop offset="1" stopColor="#00C9C9" />
         </linearGradient>
       </defs>
     </svg>

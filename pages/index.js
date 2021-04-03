@@ -8,7 +8,6 @@ import { Report } from '../components/pages/Report'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
-  process.env.TEST
   return (
     <div className={styles.container}>
       <Head>

@@ -16,11 +16,12 @@ a {
 }
 
 h1 {
-  margin: var(--size-16) 0
+  margin: var(--size-16) 0;
 }
 
 p {
-  margin: var(--size-8) 0
+  margin: var(--size-8) 0;
+  color: var(--color-3);
 }
 
 @import 'variables.css';

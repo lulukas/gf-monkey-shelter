@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 // Components
-import { SectionItemMonkey } from '../../molecules/SectionItemMonkey'
+import { SectionItemMonkey } from './SectionItemMonkey'
 
 // Styles
 import styles from '../../../styles/ReportSectionSpecies.module.css'
@@ -16,7 +16,7 @@ export const SectionSpecies = ({ specie, monkeys }) => {
       </div>
       <div className={styles['container-monkeys']}>
         {monkeys.map((monkey) => (
-          <SectionItemMonkey monkey={monkey} />
+          <SectionItemMonkey monkey={monkey} isNew/>
         ))}
       </div>
     </div>
