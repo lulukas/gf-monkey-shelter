@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--size-32);
+}
+
+.date-picker {
+  background: var(--color-4);
+  color: var(--color-2);
+  border: none;
+  padding: 0 8px;
+  border-radius: 8px;
+  font-family: var(--font-family-logo);
+}
+
+.label {
+  font-weight: 700;
+  font-size: var(--font-size-10);
+  color: var(--color-3);
+  margin-right: var(--size-16);
+}
+
+.setting {
+  display: flex;
+}

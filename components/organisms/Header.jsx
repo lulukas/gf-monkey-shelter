@@ -7,10 +7,11 @@ import MonkeyShelterLogo from '../atoms/MonkeyShelterLogo'
 import styles from '../../styles/Header.module.css'
 
 const Header = () => {
+
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
-        <MonkeyShelterLogo size={80} />
+        <MonkeyShelterLogo size={60} />
       </div>
       <h1 className={styles['logo-text']}>GF Monkey Shelter</h1>
     </div>

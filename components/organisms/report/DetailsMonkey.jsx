@@ -10,7 +10,6 @@ import styles from '../../../styles/DetailsMonkey.module.css'
 import moment from 'moment'
 
 export const DetailsMonkey = ({ monkey, show, onClose }) => {
-  console.log('🚀 ~ file: DetailsMonkey.jsx ~ line 11 ~ DetailsMonkey ~ monkey', monkey)
   return (
     <div className={styles.container} onClick={onClose}>
       <div className={styles['container-details']}>

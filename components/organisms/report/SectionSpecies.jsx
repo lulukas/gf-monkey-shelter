@@ -15,8 +15,8 @@ export const SectionSpecies = ({ specie, monkeys }) => {
         <p className={styles.total}>{monkeys.length}</p>
       </div>
       <div className={styles['container-monkeys']}>
-        {monkeys.map((monkey) => (
-          <SectionItemMonkey monkey={monkey} isNew/>
+        {monkeys.map((monkey, index) => (
+          <SectionItemMonkey monkey={monkey} key={`monkey-${index}`}/>
         ))}
       </div>
     </div>

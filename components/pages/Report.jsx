@@ -1,22 +1,34 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
+import moment from 'moment'
+
+// Utils
+import { flagNewMonkeys } from '../../utils/flagNewMonkeys'
+import { getMonkeysBySpecies } from '../../utils/getMonkeysBySpecies'
 
 // Hooks
 import { useMonkeys } from '../../hooks/useMonkeys'
 
 // Components
 import { Loading } from '../organisms/Loading'
+import { Header } from '../organisms/report/Header'
+import { SectionSpecies } from '../organisms/report/SectionSpecies'
+import { Settings } from '../organisms/report/Settings'
 
 // Styles
 import styles from '../../styles/Report.module.css'
-import { Header } from '../organisms/report/Header'
-import { getMonkeysBySpecies } from '../../utils/getMonkeysBySpecies'
-import { SectionSpecies } from '../organisms/report/SectionSpecies'
 
 export const Report = () => {
+  const [lastReportDate, setLastReportDate] = useState(
+    moment().subtract(7, 'd').format('YYYY-MM-DD')
+  )
+
   const { monkeys, loading, err } = useMonkeys()
 
-  const monkeysBySpecies = monkeys && getMonkeysBySpecies(monkeys)
-  console.log('🚀 ~ file: Report.jsx ~ line 18 ~ Report ~ monkeysBySpecies', monkeysBySpecies)
+  const flaggedMonkeys = monkeys && flagNewMonkeys({ monkeys, since: lastReportDate })
+
+  const monkeysBySpecies =
+    flaggedMonkeys &&
+    getMonkeysBySpecies(flaggedMonkeys)
 
   return (
     <div className={styles.container}>
@@ -28,10 +40,11 @@ export const Report = () => {
           </Fragment>
         )) || (
           <Fragment>
-            <Header monkeys={monkeys} />
+            <Settings lastReportDate={lastReportDate} setLastReportDate={setLastReportDate} />
+            <Header monkeyCount={monkeys.length} speciesCount={monkeysBySpecies.length} />
             <div>
-              {monkeysBySpecies.map(({ specie, monkeys }) => (
-                <SectionSpecies specie={specie} monkeys={monkeys} />
+              {monkeysBySpecies.map(({ specie, monkeys }, index) => (
+                <SectionSpecies specie={specie} monkeys={monkeys} key={`specie-${index}`} />
               ))}
             </div>
           </Fragment>
