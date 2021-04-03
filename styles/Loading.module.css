@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banana {
+  margin: var(--size-16);
+  animation:spin 4s linear infinite forwards;
+}
+@keyframes spin { 100% { transform:rotate(360deg); } }
+
+.text {
+  font-size: var(--font-size-20);
+    font-weight: 700;
+    color: var(--color-3);
+}

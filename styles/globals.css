@@ -12,6 +12,15 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  margin: var(--size-16) 0
+}
+
+p {
+  margin: var(--size-8) 0
 }
 
 @import 'variables.css';

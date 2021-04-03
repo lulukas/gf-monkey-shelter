@@ -22,13 +22,7 @@ const Home = () => {
       </Head>
 
       <Header />
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to{' '}
-          <a href={process.env.NEXT_PUBLIC_MONKEY_API}>
-            GF Monkey Shelter
-          </a>
-        </h1>
+      <main>
         <Report />
       </main>
     </div>
