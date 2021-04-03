@@ -1,4 +1,10 @@
 .container {
-  min-height: 100vh;
-  background: var(--color-2);
+  height: 100vh;
+  overflow: scroll;
+  background: linear-gradient(
+    184deg,
+    rgba(255, 240, 183, 1) 0%,
+    rgba(203, 190, 144, 1) 30%,
+    rgb(157 149 0) 100%
+  );
 }
