@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "cross-env NODE_ENV=test mocha 'src/**/*.test.js'"
+    "test": "cross-env NODE_ENV=test mocha 'src/**/*.test.js'",
+    "deploy": "npx serverless"
   },
   "prettier": {
     "semi": false,
