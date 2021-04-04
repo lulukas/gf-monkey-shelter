@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "cross-env NODE_ENV=test mocha 'src/**/*.test.js'"
   },
   "prettier": {
     "semi": false,
@@ -57,10 +58,14 @@
     "superagent": "^6.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/register": "^7.13.14",
+    "cross-env": "^7.0.3",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.23.1",
+    "mocha": "^8.3.2",
     "prettier": "^2.2.1"
   }
 }

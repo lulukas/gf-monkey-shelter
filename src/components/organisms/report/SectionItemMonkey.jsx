@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { Monkey } from '../../atoms/Monkey'
 
 // Styles
-import styles from '../../../styles/SectionItemMonkey.module.css'
+import styles from '../../../../styles/report/SectionItemMonkey.module.css'
 import { DetailsMonkey } from './DetailsMonkey'
 
 export const SectionItemMonkey = ({ monkey }) => {

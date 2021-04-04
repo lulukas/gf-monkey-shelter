@@ -9,13 +9,13 @@ import { getMonkeysBySpecies } from '../../utils/getMonkeysBySpecies'
 import { useMonkeys } from '../../hooks/useMonkeys'
 
 // Components
-import { Loading } from '../organisms/Loading'
+import { Loading } from './Loading'
 import { Header } from '../organisms/report/Header'
 import { SectionSpecies } from '../organisms/report/SectionSpecies'
 import { Settings } from '../organisms/report/Settings'
 
 // Styles
-import styles from '../../styles/Report.module.css'
+import styles from '../../../styles/report/Report.module.css'
 
 export const Report = () => {
   const [lastReportDate, setLastReportDate] = useState(

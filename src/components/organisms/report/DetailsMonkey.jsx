@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import { Monkey } from '../../atoms/Monkey'
 
 // Styles
-import styles from '../../../styles/DetailsMonkey.module.css'
+import styles from '../../../../styles/report/DetailsMonkey.module.css'
 import moment from 'moment'
 
 export const DetailsMonkey = ({ monkey, show, onClose }) => {
@@ -39,6 +39,6 @@ export const DetailsMonkey = ({ monkey, show, onClose }) => {
 
 DetailsMonkey.propTypes = {
   monkey: PropTypes.object,
-  show: PropTypes.boolean,
+  show: PropTypes.bool,
   onClose: PropTypes.func,
 }

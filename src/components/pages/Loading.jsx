@@ -4,7 +4,7 @@ import React from 'react'
 import { Banana } from '../atoms/Banana'
 
 // Styles
-import styles from '../../styles/Loading.module.css'
+import styles from '../../../styles/app/Loading.module.css'
 
 export const Loading = () => {
   return (

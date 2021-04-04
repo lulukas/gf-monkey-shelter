@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 // Styles
-import styles from '../../../styles/ReportHeader.module.css'
+import styles from '../../../../styles/report/ReportHeader.module.css'
 
 export const Header = ({ monkeyCount, speciesCount }) => {
   return (

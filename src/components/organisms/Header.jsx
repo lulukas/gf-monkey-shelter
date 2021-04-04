@@ -4,7 +4,7 @@ import React from 'react'
 import MonkeyShelterLogo from '../atoms/MonkeyShelterLogo'
 
 // Styles
-import styles from '../../styles/Header.module.css'
+import styles from '../../../styles/app/Header.module.css'
 
 const Header = () => {
 

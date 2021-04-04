@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 // Styles
-import styles from '../../../styles/ReportSettings.module.css'
+import styles from '../../../../styles/report/ReportSettings.module.css'
 
 export const Settings = ({ lastReportDate, setLastReportDate }) => {
   const handleChangeLastReportDate = (e) => setLastReportDate(e.target.value)

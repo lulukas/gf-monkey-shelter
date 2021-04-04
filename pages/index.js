@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
 // Components
-import Header from '../components/organisms/Header'
-import { Report } from '../components/pages/Report'
+import Header from '../src/components/organisms/Header'
+import { Report } from '../src/components/pages/Report'
 
 // styles
-import styles from '../styles/Home.module.css'
+import styles from '../styles/app/Home.module.css'
 
 const Home = () => {
   return (
